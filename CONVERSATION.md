@@ -109,3 +109,52 @@ print(odd_or_even(7))  # expected: 'odd'
 ```
 
 What does `number % 2` return when the number is even?
+
+---
+## 2026-10-30 10:17, in .
+
+**Me:** 4.0_list_manipulation.py function of lens()?
+
+**Tutor:**
+
+The built-in function to get the length of a list is `len()`.
+
+```python
+# TODO: write a function lens that returns the length of a list
+def lens(items):
+    return len(items)
+
+# Example usage (not part of your function):
+toys = ["car", "doll", "ball"]
+print(lens(toys))  # Should print 3
+```
+
+What argument does `len()` expect?
+
+---
+## 2026-10-30 10:29, in .
+
+**Me:** 4.1_list_reverse_sort.py output of code?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-30 10:30, in .
+
+**Me:** 4.1_list_reverse_sort.py function of sorted()?
+
+**Tutor:**
+
+The function that returns a new sorted list from any iterable.
+
+```python
+# TODO: write a function that returns a new list sorted in reverse order
+def reverse_sorted(items):
+    # TODO: call sorted() with the right argument
+    # TODO: set reverse=True
+    pass
+```
+
+What keyword argument tells sorted() to go from largest to smallest?

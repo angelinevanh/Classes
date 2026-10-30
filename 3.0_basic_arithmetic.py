@@ -41,4 +41,4 @@ print("Multiplication:", num1 * num2)
 if num2 == 0:
     print("Division: Result undefined")
 else:
-    print("Division:", num1 / num 2)
+    print("Division:", num1 / num2)
