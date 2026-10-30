@@ -26,10 +26,16 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My two fields, and what I would do with them:
+# 1. In:my name and age
+# 2. Process:print my name and age
+# 3. Out:my name and age in separate strings
+# 4. My two fields, and what I would do with them:use them for something
 
 
 # Your code below
+name = input("Angeline")
+age = input("21")
+print("My name is:", name)
+print("My age is:", age)
+
+print("My name is " + name + "and my age is " + age)
