@@ -158,3 +158,21 @@ def reverse_sorted(items):
 ```
 
 What keyword argument tells sorted() to go from largest to smallest?
+
+---
+## 2026-10-30 10:42, in .
+
+**Me:** 4.2_dictionaries.py purpose of del?
+
+**Tutor:**
+
+Deleting a key–value pair from a dictionary.
+
+```python
+# TODO: remove the key 'impressions' from the campaign data
+campaign = {'name': 'Summer Sale', 'impressions': 15000, 'clicks': 300}
+
+# your code here
+```
+
+What built-in function removes a single item from a dict?

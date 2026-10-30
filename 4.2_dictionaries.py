@@ -23,10 +23,23 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+# 1. In: dictionary about green bond with 6 fields
+# 2. Process: reading, updating, deleting and displaying final value
+# 3. Out:original and modified values
+# 4. My object, my five fields, and why those: Object is green bond.
+#       Five fields are name, issuer, coupon, maturity and currency.
 
 
 # Your code below
+bond = {
+    "name": "Green Climate Bond",
+    "issuer": "EIB",
+    "coupon": 3.5,
+    "maturity": "2030",
+    "currency": "EUR",
+    "rating": "AAA"
+    }
+print("Issuer:", bond["issuer"])
+bond["coupon"] = 3.75
+del bond["rating"]
+print("Updated Bond Dictionary:", bond)
