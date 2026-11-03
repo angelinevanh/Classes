@@ -227,3 +227,24 @@ else:
 ```
 
 What does the `elif` branch test?
+
+---
+## 2026-11-03 08:39, in .
+
+**Me:** 3.0_basic_arithmetic.py what is a float?
+
+**Tutor:**
+
+A float is a number with a decimal point.
+
+In Python, you write a float like this:
+
+```python
+# TODO: change the numbers so the result is 3.5
+a = 3.0
+b = 0.5
+result = a + b
+print(result)
+```
+
+What function would you use to turn the string "3.5" into a float?
