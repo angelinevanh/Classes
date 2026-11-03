@@ -33,9 +33,9 @@ DELIVERABLE
 
 
 # Your code below
-name = input("Angeline")
-age = input("21")
+name = input("Enter your name: ")
+age = input("Enter your age: ")
 print("My name is:", name)
 print("My age is:", age)
 
-print("My name is " + name + "and my age is " + age)
+print("My name is " + name + " and my age is " + age)
