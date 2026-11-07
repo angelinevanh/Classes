@@ -28,10 +28,43 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process, function by function:
-# 3. Out:
-# 4. The question my fourth function answers:
+# 1. In: one number
+# 2. Process, function by function: main function evaluates the number through if, else and elseif checks.
+#   it checks if the number is zero, if it is greater than zero, less than zero, if it is even. if none of the above, it defaults to labelling the number as odd.
+# 3. Out: whether the number is positive or negative
+# 4. The question my fourth function answers: is_negative checks whether the number is negative.
 
 
 # Your code below
+def is_even(number):
+    """True when the number divides by two exactly."""
+    return number % 2 == 0
+
+def is_zero(number):
+    """True when the number is zero."""
+    return number == 0
+
+
+def is_positive(num):
+    return num > 0
+
+def is_negative(num):
+    return num < 0
+
+
+def detailed_message(num):
+    if is_zero(num):
+        return "The number is zero."
+    elif is_positive(num):
+        return "The number is positive."
+    elif is_negative(num):
+        return "The number is negative."
+    elif is_even(num):
+        return "The number is even."
+    else:
+        return "The number is odd."
+
+number = 6
+print(detailed_message(number))
+
+print(detailed_message(-4))

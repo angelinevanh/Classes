@@ -26,23 +26,31 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My function name, and why return rather than print:
+# 1. In:Two numbers
+# 2. Process: addition of the two numbers
+# 3. Out: the sum of the numbers
+# 4. My function name, and why return rather than print: name is "compute sum" and return allows us to reuse results, unlike print, which is for one time.
 
 
 # Your code below
-cities = ["Paris", "Prague", "London", "Frankfurt", "Amsterdam", "Vienna", "Milan", "Zurich"]
-def find_longest_city(cities):
-    if not cities:
-        return None
-    return max(cities, key=len)
+print("HEllo, World!")
 
-result_1 = find_longest_city(cities)
-result_2 = find_longest_city()
-result_3 = find_longest_city()
+number_1 = 10
+number_2 = 20
 
-print("Result 1:", result_1)
-print("Result 2:", result_2)
-print("Result 3:", result_3)
+sum = number_1 + number_2
+print("The sum of", number_1, "and", number_2, "is", sum)
+
+number_3 = 100
+number_4 = 220
+
+sum = number_3 + number_4
+print("The sum of", number_3, "and", number_4, "is", sum)
+
+def compute_sum(a, b):
+    return a + b
+
+result1 = compute_sum(10, 20)
+result2 = compute_sum(100, 220)
+result3 = compute_sum(5, 15)
+print("The sums are:", result1, "and", result2, "and", result3)
